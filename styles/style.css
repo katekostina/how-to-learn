@@ -9,15 +9,11 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.block-text {
-    margin: 0;
-}
-
 .header {
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    background-color: #e2e2e2;
+    background-color: #f2f2f2;
     display: flex;
     justify-content: start;
     align-content: center;
@@ -43,6 +39,7 @@
 }
 
 .header__title {
+    margin: 0;
     width: 730px;
     margin-left: 64px;
     line-height: 96px;
@@ -52,6 +49,7 @@
 }
 
 .header__subtitle {
+    margin: 0;
     width: 388px;
     position: absolute;
     left: 64px;
@@ -98,8 +96,10 @@
 }
 
 .two-columns__brief {
+    margin: 0;
     width: 175px;
     line-height: 1.2;
+    font-weight: normal;
     font-size: 18px;
     color: #2f80ed;
 }
@@ -110,6 +110,7 @@
 }
 
 .two-columns__paragraph {
+    margin: 0;
     margin-bottom: 30px;
     line-height: 34px;
     font-size: 24px;
@@ -153,13 +154,14 @@
 }
 
 .table__heading {
+    margin: 0;
     line-height: 1.15;
     font-size: 24px;
     font-weight: 700;
 }
 
 .table__text {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     line-height: 1.2;
     font-size: 18px;
 }
@@ -172,7 +174,7 @@
 
 .feinman {
     height: 790px;
-    background-color: #e2e2e2;
+    background-color: #f2f2f2;
     padding: 100px 0 0;
     background-image: url(../images/feinman.png);
     background-size: 867px 637px;
@@ -192,6 +194,7 @@
 }
 
 .feinman__subtitle {
+    margin: 0;
     display: inline-block;
     text-align: center;
     line-height: 51px;
@@ -261,39 +264,37 @@
 }
 
 .footer__column {
-
 }
 
 .footer__column_content_copyright {
     flex-basis: 711px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo_place_footer {
     width: 183px;
     height: 35px;
-    position: absolute;
-    top: 0;
-    left: 0;
     background-image: url(../images/logo_white.svg);
 }
 
 .footer__author {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     margin: 18px 0;
     line-height: 25px;
     font-size: 18px;
 }
 
 .footer__column-heading {
+    margin: 0;
     line-height: 30px;
     font-size: 18px;
     font-weight: 700;
 }
 .footer__column-links {
     margin: 20px 0 16px;
+    padding: 0;
+    list-style-type: none;
 }
 
 .footer__column-link{
@@ -303,8 +304,7 @@
     font-size: 18px;
     display: block;
 }
-
-
+/*  */
 .footer__social-icon {
     margin-right: 10px;
 }
