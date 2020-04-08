@@ -1,0 +1,15 @@
+@import url(./__title/feinman__title.css);
+@import url(./__subtitle/feinman__subtitle.css);
+@import url(./__link/feinman__link.css);
+
+.feinman {
+    height: 790px;
+    background-color: #f2f2f2;
+    padding: 80px 0 0;
+    background-image: url(../../images/feinman.png);
+    background-size: 867px 637px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: relative;
+    text-align: center;
+}
