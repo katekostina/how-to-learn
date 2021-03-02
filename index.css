@@ -18,3 +18,7 @@
 @import url(./blocks/resources/resources.css);
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/rotation/rotation.css);
+
+body {
+  background-color: #f2f2f2;
+}
