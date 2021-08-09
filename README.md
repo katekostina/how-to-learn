@@ -1,9 +1,13 @@
-https://katekostina.github.io/how-to-learn/
+# Научиться учиться
 
-Научиться учиться
-======
-_Курс: Расширенные возможности HTML и CSS платформы Яндекс.Практикум_
+**Описание проекта**
+Проект демострирующий простую неадаптивную вёрстку.
 
-* Проект описывает различные подходы, теории и практики для эффективного обучения.
-* Используемые технологии: HTML, CSS.
+**Технологии**
+* HTML, CSS (по БЭМ).
+
+**Опубликован**
+* https://katekostina.github.io/how-to-learn/
+
+<img align="left" width="600px" src="https://github.com/katekostina.github.io/how-to-learn/blob/master/screenshot.png"> <br />
 
